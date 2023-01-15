@@ -29,6 +29,14 @@ module.exports = {
                     },
                 }
             },
+            {
+                test: /\.s[ac]ss$/i,
+                use: ['style-loader', 'css-loader', 'sass-loader'],
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif|woff(2)?|eot|ttf|otf)$/,
+                type: 'asset/resource',
+            },
         ],
     },
     plugins: [
