@@ -1,0 +1,86 @@
+.button-outline {
+  position: relative;
+
+  width: fit-content;
+
+  font-weight: 500;
+  line-height: 24px;
+
+  border: 1px solid rgba(18, 17, 39, 0.12);
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  &:hover, &:active {
+    background: rgba(18, 17, 39, 0.04);
+    border: 1px solid rgba(18, 17, 39, 0.12);
+  }
+
+  &:disabled {
+    border: 1px solid rgba(18, 17, 39, 0.12);
+  }
+
+  &--large {
+    padding: 14px 32px;
+    font-size: 16px;
+  }
+
+  &--medium {
+    padding: 8px 24px;
+    font-size: 14px;
+  }
+
+  &--small {
+    padding: 6px 20px;
+    font-size: 14px;
+  }
+}
+
+.button-main {
+  position: relative;
+
+  width: fit-content;
+
+  font-weight: 500;
+  line-height: 24px;
+
+  background: #444BD3;
+  color: #FFFFFF;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  &:hover, &:active {
+    background: #3F43C8;
+  }
+
+  &:disabled {
+    background: #444BD3;
+    opacity: 0.5;
+  }
+
+  &--large {
+    padding: 14px 32px;
+    font-size: 16px;
+  }
+
+  &--medium {
+    padding: 8px 24px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+
+  &--small {
+    padding: 6px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+}
+
+.buttons-group {
+  display: flex;
+
+  & >:not(:last-child) {
+    margin-right: 16px;
+  }
+}

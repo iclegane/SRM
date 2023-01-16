@@ -1,0 +1,139 @@
+.header {
+  position: relative;
+  width: 100%;
+
+  &__container {
+    width: 1128px;
+    margin: 0 auto;
+  }
+
+  &__present-block {
+    position: relative;
+
+    width: 744px;
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  &__main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 67px 0;
+  }
+
+  &__buttons-container {
+    margin-top: 24px;
+  }
+
+  &__background-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background-image: url("../../../static/images/Promo/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1000;
+
+    &:before {
+      position: absolute;
+      content: "";
+
+      height: 100%;
+      width: 100%;
+      clip-path: polygon(100% 50%, 100% 100%, 0 100%);
+      shape-outside: polygon(100% 50%, 100% 100%, 0 100%);
+      background: #FFFFFF;
+    }
+  }
+
+  &__image-concept {
+    position: relative;
+
+    margin: 0 auto;
+
+    width: 936px;
+    height: 585px;
+
+    img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      
+      filter: drop-shadow(0px 20px 80px rgba(0, 0, 0, 0.08));
+      border-radius: 20px;
+    }
+  }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+
+  padding: 28px 0;
+
+  &__buttons {
+    display: flex;
+    margin-left: auto;
+  }
+
+  &__menu {
+    margin-left: 48px;
+  }
+}
+
+.logo {
+  width: 102px;
+  height: 40px;
+
+  &__link {
+    display: block;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.menu {
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 48px;
+  }
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  &__title {
+    width: 744px;
+    margin-bottom: 8px;
+  }
+
+  &__description {
+    width: 650px;
+  }
+}

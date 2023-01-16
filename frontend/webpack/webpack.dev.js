@@ -12,7 +12,7 @@ module.exports = merge(common, {
             directory: path.join(__dirname + '/../', 'dist'),
         },
         compress: false,
-        open:true,
+        open:false,
         hot: true,
         port: 8080,
     },
