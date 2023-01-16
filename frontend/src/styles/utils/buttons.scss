@@ -1,23 +1,19 @@
 .button-outline {
   position: relative;
-
   width: fit-content;
-
   font-weight: 500;
   line-height: 24px;
-
-  border: 1px solid rgba(18, 17, 39, 0.12);
+  border: 1px solid rgb(18 17 39 / 12%);
   border-radius: 6px;
-
   cursor: pointer;
 
   &:hover, &:active {
-    background: rgba(18, 17, 39, 0.04);
-    border: 1px solid rgba(18, 17, 39, 0.12);
+    background: rgb(18 17 39 / 4%);
+    border: 1px solid rgb(18 17 39 / 12%);
   }
 
   &:disabled {
-    border: 1px solid rgba(18, 17, 39, 0.12);
+    border: 1px solid rgb(18 17 39 / 12%);
   }
 
   &--large {
@@ -38,16 +34,12 @@
 
 .button-main {
   position: relative;
-
   width: fit-content;
-
   font-weight: 500;
   line-height: 24px;
-
   background: #444BD3;
-  color: #FFFFFF;
+  color: #FFF;
   border-radius: 8px;
-
   cursor: pointer;
 
   &:hover, &:active {
