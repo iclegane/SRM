@@ -25,16 +25,12 @@
     margin-top: 1.5rem;
   }
 
-  &__background-image {
-    position: absolute;
-    left: 0;
-    top: 0;
+  &--blue-gradient {
+    position: relative;
+
     background-image: url("../../../static/images/Promo/1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    z-index: -1000;
 
     &::before {
       position: absolute;

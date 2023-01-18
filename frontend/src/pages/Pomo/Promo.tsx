@@ -6,7 +6,7 @@ import './index.scss';
 const Promo: React.FC = () => {
     return (
         <div className={'page page--promo'}>
-            <header className="header">
+            <header className="header header--blue-gradient">
                 <div className="header__container">
                     <div className="navbar">
                         <div className="logo">
@@ -42,7 +42,6 @@ const Promo: React.FC = () => {
                         <img src={require('../../../static/images/Promo/2.png')} alt="srm-preview"/>
                     </div>
                 </div>
-                <div className="header__background-image"></div>
             </header>
             <section className="section features-block">
                 <div className="section__wrapper">
