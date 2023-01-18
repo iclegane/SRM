@@ -325,3 +325,35 @@ hr {
     margin-top: 1.25rem;
   }
 }
+
+.features-mobile {
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content {
+    width: 456px;
+  }
+
+  &__title {
+    margin-bottom: 32px;
+  }
+
+  &__text {
+    color: $color-grayOpacity--56;
+  }
+
+  &__button {
+    margin-top: 32px;
+  }
+
+  &__image {
+    width: 552px;
+    height: 623px;
+
+    background-image: url("../../../static/images/Promo/5.png");
+    background-repeat: no-repeat;
+  }
+}

@@ -42,6 +42,7 @@ const Promo: React.FC = () => {
                 </div>
 
             </header>
+
             <section className="section features-block">
                 <div className="section__wrapper">
                     <div className="features-block__heading">
@@ -141,6 +142,19 @@ const Promo: React.FC = () => {
                             <img src={require('../../../static/images/Promo/4.png')}/>
                             <img src={require('../../../static/images/Promo/4.png')}/>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section section--indigo features-mobile">
+                <div className="section__wrapper">
+                    <div className="features-mobile__container">
+                        <div className='features-mobile__content'>
+                            <div className="h2 features-mobile__title">Dlex Startup Mobile Apps & Completed design system</div>
+                            <div>A complete design system with 70 pre-built screens for mobile apps to enable you to kick-off your mobile app design.</div>
+                            <button className="button-main button-main--large features-mobile__button">Get it Now</button>
+                        </div>
+                        <div className="features-mobile__image"></div>
                     </div>
                 </div>
             </section>
