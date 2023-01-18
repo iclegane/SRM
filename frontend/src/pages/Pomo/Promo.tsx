@@ -1,7 +1,7 @@
 import React from "react";
 import './../../styles/index.scss';
 import './index.scss';
-
+9
 
 const Promo: React.FC = () => {
     return (
