@@ -1,7 +1,5 @@
 import React from "react";
-import './../../styles/index.scss';
 import './index.scss';
-9
 
 const Promo: React.FC = () => {
     return (
@@ -42,6 +40,7 @@ const Promo: React.FC = () => {
                         <img src={require('../../../static/images/Promo/2.png')} alt="srm-preview"/>
                     </div>
                 </div>
+
             </header>
             <section className="section features-block">
                 <div className="section__wrapper">
