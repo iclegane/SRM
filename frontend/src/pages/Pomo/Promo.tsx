@@ -21,8 +21,8 @@ const Promo: React.FC = () => {
                             </div>
                         </div>
                         <div className="buttons-group navbar__buttons">
-                            <div className="button-main button-main--medium">Sign Up</div>
-                            <div className="button-outline button-outline--medium">Sign In</div>
+                            <button className="button-main button-main--medium">Sign Up</button>
+                            <button className="button-outline button-outline--medium">Sign In</button>
                         </div>
                     </div>
                     <div className="header__main-text">
@@ -32,8 +32,8 @@ const Promo: React.FC = () => {
                         </div>
 
                         <div className="buttons-group header__buttons-container">
-                            <div className="button-main button-main--large">Sign Up</div>
-                            <div className="button-outline button-outline--large">Sign In</div>
+                            <button className="button-main button-main--large">Sign Up</button>
+                            <button className="button-outline button-outline--large">Sign In</button>
                         </div>
                     </div>
                     <div className="header__image-concept">
@@ -114,7 +114,7 @@ const Promo: React.FC = () => {
                         Start using workflow today.
                     </div>
                         <div className="cta__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit.</div>
-                        <div className="cta__button button-main button-main--large">Sign up for free</div>
+                        <button className="cta__button button-main button-main--large">Sign up for free</button>
                     </div>
                 </div>
             </section>
@@ -126,7 +126,7 @@ const Promo: React.FC = () => {
                             <div className="overline overline--lg overline--indigo technology-block__auxiliary-text">Customer Spotlight</div>
                             <div className="h3 technology-block__title">DocuSign enables customer to succeed with Dlex</div>
                             <div className="technology-block__text">DocuSign uses Dlex to track key metrics to improve customer experience, resulting in more conversions, onboarding completions, and paid upgrades.</div>
-                            <div className="button-main button-main--large technology-block__button">Read full story</div>
+                            <button className="button-main button-main--large technology-block__button">Read full story</button>
                         </div>
                         <div className="technology-block__image-container"></div>
                     </div>
