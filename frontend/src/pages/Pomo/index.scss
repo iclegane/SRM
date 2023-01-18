@@ -158,7 +158,8 @@
 
   width: 22.5rem;
 
-  border: 0.063rem solid rgba(18, 17, 39, 0.12);
+  background: $color-white;
+  box-shadow: 0 20px 50px rgba(18, 17, 39, 0.08);
   border-radius: 0.75rem;
 
   &__wrapper {
@@ -181,7 +182,7 @@
   }
 
   &__title {
-    color: #121127;
+    color: $color-grayscale--900;
   }
 
   &__text {
