@@ -105,7 +105,7 @@ const Promo: React.FC = () => {
                 </div>
             </section>
 
-            <section className="section cta">
+            <section className="section section--indigo cta">
                 <div className="section__wrapper">
                     <div className="cta__container">
                         <div className="h1 cta__title">
