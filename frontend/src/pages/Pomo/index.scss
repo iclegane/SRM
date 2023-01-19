@@ -28,21 +28,7 @@
   }
 
   &--blue-gradient {
-    position: relative;
-
-    background-image: url("../../../static/images/Promo/1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    &::before {
-      position: absolute;
-      content: "";
-      height: 100%;
-      width: 100%;
-      clip-path: polygon(100% 50%, 100% 100%, 0 100%);
-      shape-outside: polygon(100% 50%, 100% 100%, 0 100%);
-      background: var(--color-white);
-    }
+    background: linear-gradient(248.66deg, #FFF1F1 0%, #E9F8FB 100%);
   }
 
   &__image-concept {
@@ -60,7 +46,6 @@
       border-radius: 1.25rem;
     }
   }
-
 }
 
 .navbar {

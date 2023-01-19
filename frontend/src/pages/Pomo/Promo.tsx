@@ -19,7 +19,7 @@ const Promo: React.FC = () => {
 
     return (
         <div className={'page page--promo'}>
-            <header className="header header--blue-gradient">
+            <header className="header">
                 <div className="navbar">
                     <div className="navbar__wrapper">
                         <div className="logo">
