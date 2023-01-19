@@ -57,7 +57,6 @@ const Promo: React.FC = () => {
                         <img src={require('../../../static/images/Promo/2.png')} alt="srm-preview"/>
                     </div>
                 </div>
-
             </header>
 
             <section className="section features-block">
