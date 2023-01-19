@@ -6,10 +6,16 @@
 html {
   &[data-theme-style='light-theme'] {
     --color: var(--color-grayOpacity-72);
+    --display-color:var(--color-grayscale-900);
+    --overline-color: var(--color-indigo-500);
+
     --background-color: var(--color-white);
   }
   &[data-theme-style='dark-theme'] {
     --color: var(--color-whiteOpacity-72);
+    --display-color:var(--color-white);
+    --overline-color: var(--color-indigo-500);
+
     --background-color: var(--color-grayscale-900);
   }
 }

@@ -2,6 +2,21 @@ import React from "react";
 import './index.scss';
 
 const Promo: React.FC = () => {
+
+    let themeToggle = () => {
+        const attrName = 'data-theme-style';
+        const values = ['light-theme', 'dark-theme'];
+
+        const html = document.querySelectorAll('html['+ attrName +']')[0];
+        const currentValue = html.getAttribute(attrName);
+
+        const nextValue = values.filter((el) => {
+            return el !== currentValue;
+        })[0];
+
+        html.setAttribute(attrName, nextValue);
+    }
+
     return (
         <div className={'page page--promo'}>
             <header className="header header--blue-gradient">
@@ -21,7 +36,7 @@ const Promo: React.FC = () => {
                             </div>
                         </div>
                         <div className="buttons-group navbar__buttons">
-                            <button className="button-main button-main--medium">Sign Up</button>
+                            <button className="button-main button-main--medium" onClick={themeToggle}>Sign Up</button>
                             <button className="button-outline button-outline--medium">Sign In</button>
                         </div>
                     </div>
