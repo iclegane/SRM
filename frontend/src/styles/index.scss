@@ -10,6 +10,7 @@ html {
     --overline-color: var(--color-indigo-500);
 
     --background-color: var(--color-white);
+    --navbar-background: var(--color-white);
   }
   &[data-theme-style='dark-theme'] {
     --color: var(--color-whiteOpacity-72);
@@ -17,6 +18,7 @@ html {
     --overline-color: var(--color-indigo-500);
 
     --background-color: var(--color-grayscale-900);
+    --navbar-background: var(--color-grayscale-900);
   }
 }
 

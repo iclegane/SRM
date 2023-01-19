@@ -64,9 +64,16 @@
 }
 
 .navbar {
-  display: flex;
-  align-items: center;
-  padding: 1.75rem 0;
+  background: var(--navbar-background);
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 1.75rem 0;
+
+    width: 1128px;
+    margin: 0 auto;
+  }
 
   &__buttons {
     display: flex;

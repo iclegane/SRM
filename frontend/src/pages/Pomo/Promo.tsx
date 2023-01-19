@@ -20,8 +20,8 @@ const Promo: React.FC = () => {
     return (
         <div className={'page page--promo'}>
             <header className="header header--blue-gradient">
-                <div className="header__container">
-                    <div className="navbar">
+                <div className="navbar">
+                    <div className="navbar__wrapper">
                         <div className="logo">
                             <a href="#" className="logo__link">
                                 <img className="logo__img" src={require('../../../static/icons/logo--white.svg')} alt="logo"/>
@@ -40,6 +40,8 @@ const Promo: React.FC = () => {
                             <button className="button-outline button-outline--medium">Sign In</button>
                         </div>
                     </div>
+                </div>
+                <div className="header__container">
                     <div className="header__main-text">
                         <div className="banner">
                             <div className="display_2 banner__title">Build Better Products</div>
