@@ -1,0 +1,38 @@
+.button-main {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-white);
+  background-color: var(--color-indigo-500);
+
+  &:hover {
+    background-color: var(--color-indigo-600);
+  }
+
+  &:active {
+    background-color: var(--color-indigo-700);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &--large {
+    font-size: 16px;
+    padding: 14px 32px;
+    border-radius: 8px;
+  }
+
+  &--medium {
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 8px 24px;
+  }
+
+  &--small {
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 6px 20px;
+  }
+}

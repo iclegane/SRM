@@ -1,4 +1,5 @@
 import React from "react";
+import './../../styles/index.scss';
 import './index.scss';
 
 const Components: React.FC = () => {

@@ -1,0 +1,42 @@
+.button-outline {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-grayscale-900);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grayOpacity-12);
+
+  &:hover {
+    background-color: var(--color-grayOpacity-4);
+    border: 1px solid var(--color-grayOpacity-12);
+  }
+
+  &:active {
+    background-color: var(--color-grayOpacity-4);
+    border: 2px solid var(--color-grayOpacity-12);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    background-color: var(--color-white);
+    cursor: not-allowed;
+  }
+
+  &--large {
+    font-size: 16px;
+    padding: 14px 32px;
+    border-radius: 8px;
+  }
+
+  &--medium {
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 8px 24px;
+  }
+
+  &--small {
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 6px 20px;
+  }
+}
