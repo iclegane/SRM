@@ -1,7 +1,8 @@
 @import "./src/styles/utils/fonts";
 @import "./src/styles/utils/typography";
 @import "./src/styles/utils/colors";
-@import "./src/styles/utils/buttons";
+@import "./src/styles/Components/Button";
+
 
 html {
   &[data-theme-style='light-theme'] {
@@ -55,4 +56,18 @@ body {
 #root {
   position: relative;
   width: 100%;
+}
+
+button, .button {
+  border: inherit;
+  color: inherit;
+  background: inherit;
+}
+
+.buttons-group {
+  display: flex;
+
+  & >:not(:last-child) {
+    margin-right: 1rem;
+  }
 }
