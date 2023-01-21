@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router';
-import Components from "../../pages/Components/Components";
+import PromoPage from "../../pages/Pomo/Promo";
 
 const App: React.FC = () => (
         <Routes>
-            <Route path="/" element={<Components/>} />
+            <Route path="/" element={<PromoPage/>} />
         </Routes>
     );
 
