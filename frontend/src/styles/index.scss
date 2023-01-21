@@ -1,3 +1,4 @@
+@import "./src/styles/share";
 @import "./src/styles/utils/fonts";
 @import "./src/styles/utils/typography";
 @import "./src/styles/utils/colors";
@@ -5,31 +6,9 @@
 @import "./src/styles/Components/Badge";
 @import "./src/styles/Components/Card";
 
-
 html {
-  &[data-theme-style='light-theme'] {
-    --color: var(--color-grayOpacity-72);
-    --display-color:var(--color-grayscale-900);
-    --overline-color: var(--color-indigo-500);
-
-    --tech-color: var(--color-grayOpacity-56);
-
-    --background-color: var(--color-white);
-    --navbar-background: var(--color-white);
-    --section-indigo-background: var(--color-indigo-50);
-    --hr-background: var(--color-grayOpacity-12);
-  }
   &[data-theme-style='dark-theme'] {
-    --color: var(--color-whiteOpacity-72);
-    --display-color:var(--color-white);
-    --overline-color: var(--color-indigo-500);
 
-    --tech-color: var(--color-whiteOpacity-56);
-
-    --background-color: var(--color-grayscale-900);
-    --navbar-background: var(--color-grayscale-900);
-    --section-indigo-background: var(--color-whiteOpacity-4);
-    --hr-background: var(--color-whiteOpacity-12);
   }
 }
 
@@ -63,6 +42,7 @@ body {
 button, .button {
   border: inherit;
   color: inherit;
+  cursor: pointer;
   background: inherit;
 }
 
