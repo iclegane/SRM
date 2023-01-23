@@ -101,6 +101,39 @@ const Promo: React.FC = () => {
                 </div>
             </section>
 
+            <section className="section section--indigo team">
+                <div className="section__wrapper">
+                    <div className="team__container">
+                        <div className="team__header">
+                            <div className="team__subtitle">Our Team</div>
+                            <div className="team__title h2">Meet the creative team</div>
+                        </div>
+                        <div className="team__body">
+                            <div className="team__list">
+                                <div className="team-card">
+                                    <div className="team-card__avatar">
+                                        <img src={require('../../../static/images/Promo/team__1.png')} alt=""/>
+                                    </div>
+                                    <div className="team-card__content">
+                                        <div className="team-card__name h6">Wade Warren</div>
+                                        <div className="team-card__position">Creative director</div>
+                                    </div>
+                                </div>
+                                <div className="team-card">
+                                    <div className="team-card__avatar">
+                                        <img src={require('../../../static/images/Promo/team__2.png')} alt=""/>
+                                    </div>
+                                    <div className="team-card__content">
+                                        <div className="team-card__name h6">Esther Howard</div>
+                                        <div className="team-card__position">Chief tech officer</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <footer className="footer">
                 <div className="footer__wrapper">
                     <div className="footer__content">
