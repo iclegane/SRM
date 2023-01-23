@@ -4,7 +4,6 @@
 @import "./src/styles/utils/colors";
 @import "./src/styles/Components/Button";
 @import "./src/styles/Components/Badge";
-@import "./src/styles/Components/Card";
 
 html {
   &[data-theme-style='dark-theme'] {
@@ -39,7 +38,7 @@ body {
   width: 100%;
 }
 
-button, .button {
+button {
   border: inherit;
   color: inherit;
   cursor: pointer;
