@@ -143,7 +143,6 @@ const Promo: React.FC = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-
                             </a>
                         </div>
                     </div>
