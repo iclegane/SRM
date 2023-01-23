@@ -5,6 +5,25 @@ const Promo: React.FC = () => {
 
     return (
         <div className={'page page--promo'}>
+            <header className="header">
+                <div className="header__wrapper">
+                    <div className="header__block">
+                        <div className="header__content">
+                            <div className="header__title display_2">Your business phone, reimagined.</div>
+                            <div className="header__text">
+                                Dlex adds a work phone number to your existing devices.
+                                No need to carry two phones or extra SIM cards.
+                            </div>
+
+                            <div className="header__body">
+                                <button className="button button--main button--large">Sign In</button>
+                                <a href="#">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
             <section className="section cta-6">
                 <div className="section__wrapper">
                     <div className="cta-6__container">
