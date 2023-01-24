@@ -7,6 +7,28 @@ const Promo: React.FC = () => {
         <div className={'page page--promo'}>
             <header className="header">
                 <div className="header__wrapper">
+                    <div className="navbar">
+                        <div className="navbar__wrapper">
+                            <div className="navbar__content">
+                                <a href="#" className="navbar__logo">
+                                    <svg viewBox="0 0 102 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M38.8275 8.75009V29.8878H46.7017C53.1563 29.8878 56.9515 25.962 56.9515 19.2677C56.9515 12.5733 53.1414 8.75009 46.7017 8.75009H38.8275ZM42.6825 11.9435H46.2982C50.6014 11.9435 53.0218 14.5508 53.0218 19.2823C53.0218 24.1016 50.6312 26.6945 46.2982 26.6945H42.6825V11.9435Z" fill="#121127"/>
+                                        <path d="M59.7457 29.8878H63.4661V8.75009H59.7457V29.8878Z" fill="#121127"/>
+                                        <path d="M77.1226 25.2442C76.7192 26.5334 75.4043 27.3829 73.671 27.3829C71.2356 27.3829 69.6817 25.713 69.6817 23.2227V23.003H80.7533V21.8165C80.7533 17.0997 77.9443 14.0382 73.447 14.0382C68.8748 14.0382 65.9763 17.2755 65.9763 22.1827C65.9763 27.1339 68.845 30.1954 73.5964 30.1954C77.3467 30.1954 80.1258 28.174 80.604 25.2442H77.1226ZM73.4619 16.8654C75.5986 16.8654 77.0329 18.4035 77.1077 20.6007H69.7116C69.8611 18.4327 71.3702 16.8654 73.4619 16.8654Z" fill="#121127"/>
+                                        <path d="M89.0757 24.3213L92.3628 29.8878H96.4268L91.3916 22.0362L96.4866 14.3604H92.4077L89.255 19.8097H89.1802L85.9828 14.3604H81.7991L86.8643 22.1387L81.7544 29.8878H85.7139L89.001 24.3213H89.0757Z" fill="#121127"/>
+                                        <path fillRule="evenodd" clipRule="evenodd" d="M15.31 34.9999C23.7552 34.9944 30.5997 28.2809 30.5997 20C30.5997 11.7191 23.7552 5.00551 15.31 5.00012C21.2938 7.45165 25.4986 13.2444 25.4986 20C25.4986 26.7555 21.2938 32.5482 15.31 34.9999Z" fill="#121127" fillOpacity="0.32"/>
+                                        <path d="M0 10.3339C0 7.3884 2.40352 5.00058 5.36842 5.00058H8.92519C17.3751 5.00058 24.225 11.7162 24.225 20.0004C24.225 28.2847 17.3751 35.0003 8.92519 35.0003H5.36842C2.40352 35.0003 0 32.6125 0 29.6669V10.3339Z" fill="#121127"/>
+                                    </svg>
+                                </a>
+                                <div className="navbar__menu">
+                                    <a href="#" className="navbar__menu-item">Product</a>
+                                    <a href="#" className="navbar__menu-item">Features</a>
+                                    <a href="#" className="navbar__menu-item">Marketplace</a>
+                                    <a href="#" className="navbar__menu-item">Company</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="header__block">
                         <div className="header__content">
                             <div className="header__title display_2">Your business phone, reimagined.</div>
