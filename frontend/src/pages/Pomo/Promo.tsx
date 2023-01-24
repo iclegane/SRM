@@ -14,7 +14,6 @@ const Promo: React.FC = () => {
                                 Dlex adds a work phone number to your existing devices.
                                 No need to carry two phones or extra SIM cards.
                             </div>
-
                             <div className="header__body">
                                 <button className="button button--main button--large">Sign In</button>
                                 <a href="#">Learn more</a>
@@ -22,39 +21,9 @@ const Promo: React.FC = () => {
                         </div>
                     </div>
                 </div>
+                <div className="header__blur header__blur--1"></div>
+                <div className="header__blur header__blur--2"></div>
             </header>
-
-            <section className="section cta-6">
-                <div className="section__wrapper">
-                    <div className="cta-6__container">
-                        <div className="cta-6__image-block">
-                            <img src={require('../../../static/images/Promo/cta-6.png')} alt=""/>
-                        </div>
-                        <div className="cta-6__info-block">
-                            <div className="cta-6__subtitle overline overline--indigo overline--lg">Award winning support</div>
-                            <div className="cta-6__title h2">We’re here to help</div>
-                            <div className="cta-6__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
-                            <button className="button button--main button--large cta-6__button">Get Started</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="section section--indigo cta-2">
-                <div className="section__wrapper">
-                    <div className="cta-2__container">
-                        <div className="cta-2__info-block">
-                            <div className="cta-2__title h2">Ready to dive in?
-                                Start your free trial today.</div>
-                            <div className="cta-2__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit.</div>
-                            <button className="cta-2__button button button--main button--large">Sign up for free</button>
-                        </div>
-                        <div className="cta-2__image-block">
-                            <img src={require('../../../static/images/Promo/cta-2.png')} alt=""/>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section className="section feature-05">
                 <div className="section__wrapper">
@@ -115,6 +84,38 @@ const Promo: React.FC = () => {
                             </div>
 
 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section section--indigo cta-2">
+                <div className="section__wrapper">
+                    <div className="cta-2__container">
+                        <div className="cta-2__info-block">
+                            <div className="cta-2__title h2">Ready to dive in?
+                                Start your free trial today.</div>
+                            <div className="cta-2__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit.</div>
+                            <button className="cta-2__button button button--main button--large">Sign up for free</button>
+                        </div>
+                        <div className="cta-2__image-block">
+                            <img src={require('../../../static/images/Promo/cta-2.png')} alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section cta-6">
+                <div className="section__wrapper">
+                    <div className="cta-6__container">
+                        <div className="cta-6__image-block">
+                            <img src={require('../../../static/images/Promo/cta-6.png')} alt=""/>
+                        </div>
+                        <div className="cta-6__info-block">
+                            <div className="cta-6__subtitle overline overline--indigo overline--lg">Award winning support</div>
+                            <div className="cta-6__title h2">We’re here to help</div>
+                            <div className="cta-6__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                            <button className="button button--main button--large cta-6__button">Get Started</button>
                         </div>
                     </div>
                 </div>
