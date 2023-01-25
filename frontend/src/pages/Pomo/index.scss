@@ -54,6 +54,10 @@
         margin-bottom: 4px;
       }
 
+      &__text {
+        font-size: $body-lg;
+      }
+
       &__title {
         margin-bottom: 24px;
       }
@@ -105,6 +109,10 @@
           border-radius: 20px;
           filter: drop-shadow(0px 8.35px 20.875px rgba(18, 17, 39, 0.08));
         }
+      }
+
+      &__text {
+        font-size: $body-lg;
       }
 
       &__title {
@@ -397,10 +405,7 @@
       }
 
       &__copy {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 180%;
-        color: var(--color-grayOpacity-56)
+        font-size: $body-sm;
       }
 
       &__links {
@@ -465,9 +470,6 @@
 
       &__subtitle {
         color: var(--color-indigo-500);
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 170%;
         margin-bottom: 12px;
       }
 
@@ -536,9 +538,7 @@
       }
 
       &__position {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 180%;
+        font-size: $body-md;
         color: var(--color-grayOpacity-56)
       }
     }
@@ -571,10 +571,7 @@
       }
 
       &__text {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 180%;
-        color: var(--color-grayOpacity-56);
+        font-size: $body-xl;
       }
 
       &__buttons {
@@ -668,11 +665,9 @@
       
       &__menu-item {
         display: block;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 180%;
-        color: var(--color-grayOpacity-72);
+        font-size: $body-md;
 
+        color: var(--color-grayOpacity-72);
         text-decoration: none;
 
         &:not(:last-child) {

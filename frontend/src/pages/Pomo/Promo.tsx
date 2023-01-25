@@ -143,7 +143,7 @@ const Promo: React.FC = () => {
                 <div className="section__wrapper">
                     <div className="team__container">
                         <div className="team__header">
-                            <div className="team__subtitle">Our Team</div>
+                            <div className="overline overline--lg team__subtitle">Our Team</div>
                             <div className="team__title h2">Meet the creative team</div>
                         </div>
                         <div className="team__body">
