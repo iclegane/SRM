@@ -32,6 +32,26 @@
   }
 }
 
+.caption {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 180%;
+
+  color: var(--color-grayscale-900);
+
+  &--lg {
+    font-size: 12px;
+  }
+
+  &--md {
+    font-size: 12px;
+  }
+
+  &--sm {
+    font-size: 11px;
+  }
+}
+
 h1, .h1 {
   font-weight: 700;
   font-size: 2.75rem;
