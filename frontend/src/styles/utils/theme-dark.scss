@@ -1,0 +1,25 @@
+.theme-dark {
+  --title-color: var(--color-white);
+  --overline-color: var(--color-indigo-400);
+  --menu-color: var(--color-white);
+  --button-main: var(--color-indigo-400);
+  --button-main-hover: var(--color-indigo-400);
+  --button-main-active: var(--color-indigo-300);
+  --button-soft: var(--color-whiteOpacity-8);
+  --button-soft-text: var(--color-white);
+  --button-soft-border: var(--color-whiteOpacity-12);
+  --button-soft-hover: var(--color-whiteOpacity-12);
+  --button-soft-active: var(--color-whiteOpacity-12);
+  --button-outline: var(--color-grayscale-900);
+  --button-outline-text: var(--color-white);
+  --button-outline-border: var(--color-whiteOpacity-12);
+  --button-outline-active: var(--color-whiteOpacity-4);
+  --logo-color: var(--color-white);
+  --footer-links: var(--color-whiteOpacity-56);
+  --footer-links-hover: var(--color-whiteOpacity-72);
+  --body-color: var(--color-whiteOpacity-56);
+  --background-color: var(--color-grayscale-900);
+  --header-bg: var(--color-whiteOpacity-4);
+  --section-indigo: var(--color-whiteOpacity-4);
+  --team-card-bg: var(--color-whiteOpacity-8);
+}

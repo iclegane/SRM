@@ -2,13 +2,34 @@
 @import "./src/styles/utils/fonts";
 @import "./src/styles/utils/typography";
 @import "./src/styles/utils/colors";
+@import "./src/styles/utils/theme-dark";
 @import "./src/styles/Components/Button";
 @import "./src/styles/Components/Badge";
 
 html {
-  &[data-theme-style='dark-theme'] {
-
-  }
+  --title-color: var(--color-grayscale-900);
+  --overline-color: var(--color-indigo-500);
+  --menu-color: var(--color-grayOpacity-72);
+  --button-main: var(--color-indigo-500);
+  --button-main-hover: var(--color-indigo-600);
+  --button-main-active: var(--color-indigo-700);
+  --button-soft: var(--color-indigo-50);
+  --button-soft-text: var(--color-indigo-500);
+  --button-soft-border: var(--color-indigo-200);
+  --button-soft-hover: var(--color-indigo-100);
+  --button-soft-active: var(--color-indigo-100);
+  --button-outline: var(--color-white);
+  --button-outline-text: var(--color-grayscale-900);
+  --button-outline-border: var(--color-grayOpacity-12);
+  --button-outline-active: var(--color-grayOpacity-4);
+  --logo-color: var(--color-grayscale-900);
+  --footer-links: var(--color-grayOpacity-56);
+  --footer-links-hover: var(--color-grayOpacity-72);
+  --body-color: var(--color-grayOpacity-56);
+  --background-color: var(--color-white);
+  --header-bg: linear-gradient(248.66deg, #FFF1F1 0%, #E9F8FB 100%);
+  --section-indigo: var(--color-indigo-50);
+  --team-card-bg: var(--color-white);
 }
 
 body {
@@ -20,8 +41,8 @@ body {
   font-size: 1rem;
   line-height: 180%;
 
-  color: var(--color-grayOpacity-56);
-  background: var(--color-white);
+  color: var(--body-color);
+  background: var(--background-color);
 
   * {
     box-sizing: border-box;

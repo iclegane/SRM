@@ -5,44 +5,43 @@
 
   &--main {
     color: var(--color-white);
-    background-color: var(--color-indigo-500);
+    background-color: var(--button-main);
 
     &:hover {
-      background-color: var(--color-indigo-600);
+      background-color: var(--button-main-hover);
     }
 
     &:active {
-      background-color: var(--color-indigo-700);
+      background-color: var(--button-main-active);
     }
   }
 
   &--soft {
-    color: var(--color-indigo-500);
-    background-color: var(--color-indigo-50);
+    color: var(--button-soft-text);
+    background-color: var(--button-soft);
 
     &:hover {
-      background-color: var(--color-indigo-100);
+      background-color: var(--button-soft-hover);
     }
 
     &:active {
-      background-color: var(--color-indigo-100);
-      border: 2px solid var(--color-indigo-200);
+      background-color: var(--button-soft-active);
+      border: 2px solid var(--button-soft-border);
     }
   }
 
   &--outline {
-    color: var(--color-grayscale-900);
-    background-color: var(--color-white);
-    border: 1px solid var(--color-grayOpacity-12);
+    color: var(--button-outline-text);
+    background-color: var(--button-outline);
+    border: 1px solid var(--button-outline-border);
 
     &:hover {
-      background-color: var(--color-grayOpacity-4);
-      border: 1px solid var(--color-grayOpacity-12);
+      background-color: var(--button-outline-active);
     }
 
     &:active {
-      background-color: var(--color-grayOpacity-4);
-      border: 2px solid var(--color-grayOpacity-12);
+      background-color: var(--button-outline-active);
+      border: 2px solid var(--button-outline-border);
     }
 
     &:disabled {
@@ -51,16 +50,16 @@
   }
 
   &--text {
-    color: var(--color-grayscale-900);
+    color: var(--button-outline-text);
     background-color: inherit;
 
     &:hover {
-      background-color: var(--color-grayOpacity-4);
+      background-color: var(--button-outline);
     }
 
     &:active {
-      background-color: var(--color-grayOpacity-4);
-      border: 2px solid var(--color-grayOpacity-12);
+      background-color: var(--button-outline);
+      border: 2px solid var(--button-outline-border);
     }
   }
 
