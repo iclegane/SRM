@@ -40,9 +40,8 @@
           display: block;
           width: 100%;
           height: 100%;
-
           border-radius: 24px;
-          filter: drop-shadow(0px 20px 50px rgba(18, 17, 39, 0.08));
+          filter: drop-shadow(0 20px 50px rgb(18 17 39 / 8%));
         }
       }
 
@@ -105,9 +104,8 @@
         img {
           display: block;
           width: 100%;
-
           border-radius: 20px;
-          filter: drop-shadow(0px 8.35px 20.875px rgba(18, 17, 39, 0.08));
+          filter: drop-shadow(0 8.35px 20.875px rgb(18 17 39 / 8%));
         }
       }
 
@@ -224,7 +222,6 @@
         position: relative;
         width: 32px;
         height: 32px;
-
         margin-bottom: 24px;
 
         svg {
@@ -239,7 +236,6 @@
 
       &__button {
         color: var(--color-indigo-500);
-
         padding: 0;
         margin-top: 24px;
       }
@@ -250,14 +246,14 @@
 
       &__body {
         position: relative;
-        background: #FFFFFF;
+        background: #FFF;
         width: fit-content;
         margin: 0 auto;
-        box-shadow: 32px 51px 84px rgba(111, 118, 138, 0.156863);
+        box-shadow: 32px 51px 84px rgb(111 118 138 / 15.7%);
         border: 13px solid white;
         border-radius: 33.4681px;
 
-        &:before {
+        &::before {
           position: absolute;
           content: "";
           width: 35px;
@@ -268,7 +264,7 @@
           right: -100px;
         }
 
-        &:after {
+        &::after {
           position: absolute;
           content: "";
           top: 225px;
@@ -292,24 +288,19 @@
         position: absolute;
         left: -40px;
         top: -40px;
-
         width: calc(100% + 13px * 2);
         height: calc(100% + 13px * 2);
-
         mix-blend-mode: normal;
         opacity: 0.62;
-
         z-index: -1000;
 
-        &:before {
+        &::before {
           position: absolute;
           content: "";
           width: 100%;
           height: 100%;
-
           background: var(--color-grayscale-500);
           mix-blend-mode: normal;
-
           opacity: 0.12;
           border-radius: 22.312px;
         }
@@ -327,7 +318,6 @@
 
       &__charts-image {
         height: 160px;
-
         background-repeat: no-repeat;
         background-size: contain;
 
@@ -336,25 +326,21 @@
           width: 153.41px;
           margin-right: 26px;
           background-image: url("../../../static/images/Promo/feature-05-2.png");
-
-          box-shadow: 30px 22px 47px rgba(111, 118, 138, 0.156863);
+          box-shadow: 30px 22px 47px rgb(111 118 138 / 15.7%);
         }
 
         &:nth-child(2) {
           position: relative;
           width: 232.11px;
           background-image: url("../../../static/images/Promo/feature-05-3.png");
-
-
-          filter: drop-shadow(-15px 24px 78px rgba(111, 118, 138, 0.156863));
-          box-shadow: -15px 24px 78px rgba(111, 118, 138, 0.156863);
+          filter: drop-shadow(-15px 24px 78px rgb(111 118 138 / 15.7%));
+          box-shadow: -15px 24px 78px rgb(111 118 138 / 15.7%);
           border-radius: 13px;
         }
       }
 
       @media (max-width: map-get($breakpoints, tablet)) {
         &__charts-image {
-
           &:nth-child(1) {
             width: 93.1px;
             height: 97.1px;
@@ -372,15 +358,14 @@
         }
 
         &__body {
-
-          &:before {
+          &::before {
             width: 21.24px;
             height: 21.24px;
             right: -50px;
             bottom: 10px;
           }
 
-          &:after {
+          &::after {
             width: 9.1px;
             height: 9.1px;
             top: 150px;
@@ -514,13 +499,14 @@
       display: flex;
       flex-direction: column;
       background: var(--team-card-bg);
-      box-shadow: 0 20px 50px rgba(18, 17, 39, 0.08);
+      box-shadow: 0 20px 50px rgb(18 17 39 / 8%);
       border-radius: 12px;
 
       &__avatar {
         width: 100%;
         height: 100%;
         border-radius: 12px 12px 0 0;
+
         img {
           width: 100%;
           height: 100%;
@@ -544,7 +530,6 @@
     .header {
       position: relative;
       width: 100%;
-
       background: var(--header-bg);
 
       &__wrapper {
@@ -584,7 +569,6 @@
         position: relative;
         width: 501px;
         height: 635px;
-
         background-image: url("../../../static/images/Promo/header.png");
         background-repeat: no-repeat;
         background-size: contain;
@@ -663,7 +647,6 @@
       &__menu-item {
         display: block;
         font-size: $body-md;
-
         color: var(--menu-color);
         text-decoration: none;
 
@@ -676,10 +659,10 @@
         width: 35px;
         height: 30px;
         margin-left: auto;
+
         svg {
           width: 100%;
           height: 100%;
-
           fill: var(--theme-btn);
         }
       }
