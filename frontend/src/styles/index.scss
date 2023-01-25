@@ -25,6 +25,7 @@ html {
   --logo-color: var(--color-grayscale-900);
   --footer-links: var(--color-grayOpacity-56);
   --footer-links-hover: var(--color-grayOpacity-72);
+  --theme-btn: var(--color-grayscale-900);
   --body-color: var(--color-grayOpacity-56);
   --background-color: var(--color-white);
   --header-bg: linear-gradient(248.66deg, #FFF1F1 0%, #E9F8FB 100%);
@@ -43,6 +44,8 @@ body {
 
   color: var(--body-color);
   background: var(--background-color);
+
+  transition: color .2s ease-out;
 
   * {
     box-sizing: border-box;
